@@ -3,24 +3,13 @@
 [![npm devDependencies status](https://david-dm.org/bensmithett/webpack-css-example/dev-status.svg)](https://david-dm.org/bensmithett/webpack-css-example#info=devDependencies)
 [![Build Status](https://travis-ci.org/bensmithett/webpack-css-example.svg?branch=master)](https://travis-ci.org/bensmithett/webpack-css-example)
 
-# Webpack CSS Example
+# Webpack es6 Example
 
-Example repo showing how to automatically generate a CSS bundle from explicitly required Sass source with Webpack.
-
-:sparkles: [**Read the blog post!**](http://bensmithett.com/smarter-css-builds-with-webpack/) :sparkles:
+Example repo showing how to use es6 classes with Webpack.
 
 ## Running
 
 - `npm install`
-- `npm run build`
-- Take a look at the generated CSS in `build/`
+- `grunt webpack`
+- Take a look at the generated files in `build/`
 
-## Contributing
-
-Please adhere to the existing code style. JavaScript that doesn't comply with [standard](http://standardjs.com/) will cause the build to fail.
-
-All issues, pull requests & code contributions must comply with the [Contributor Code of Conduct](./CODE_OF_CONDUCT.md)
-
-## License
-
-Webpack CSS Example is released under the [MIT License](http://ben.mit-license.org/).
