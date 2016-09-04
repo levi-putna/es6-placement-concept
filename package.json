@@ -1,0 +1,25 @@
+{
+  "name": "ex6-webpack-example",
+  "version": "1.0.0",
+  "description": "Example repo showing a webpack es6 build",
+  "engines": {
+    "node": "4.1.2",
+    "npm": "3.3.9"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-webpack": "^1.0.14",
+    "webpack-manifest-plugin": "^1.0.1"
+  }
+}
